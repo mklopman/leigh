@@ -1,11 +1,223 @@
-.card-body {
-	width: 200px;
+body {
+	background-image: linear-gradient(to bottom, rgba(225,225,225,0.6) 0%,rgba(225,225,225,0) 100%),url("https://st.depositphotos.com/1332421/3064/i/950/depositphotos_30645643-stock-photo-gray-textured-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .stupid {
 	width: 250px;
 	height: 250px;
 }
+
+.card-body {
+	width: 250px;
+}
+
+.fitness {
+	width: 250px;
+	height: 250px;
+	background-image: url("../images/fitness_background.jpg");
+	background: cover;
+	font-size: 30px;
+}
+
+.fitness-list {
+	position: relative;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: left;
+	left: -20px;
+}
+
+.yoga {
+	width: 250px;
+	height: 250px;
+	background-image: url("../images/yoga_background.jpg");
+	background: cover;
+	font-size: 30px;
+}
+
+.yoga-list {
+	position: relative;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: left;
+	left: -20px;
+}
+
+.financial-wellness {
+	width: 250px;
+	height: 250px;
+	background-image: url("../images/financial_wellness_background.jpg");
+	background: cover;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.financial-list {
+	position: relative;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: left;
+	left: -20px;
+}
+
+.love {
+	width: 250px;
+	height: 250px;
+	background-image: url("../images/love_background.jpg");
+	background: cover;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.love-list {
+	position: relative;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: left;
+	left: -20px;
+}
+
+.happiness {
+	width: 250px;
+	height: 250px;
+	color: white;
+	background-image: url("../images/happiness_background.jpg");
+	background: cover;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.happiness-list {
+	position: relative;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: left;
+	left: -20px;
+}
+
+.happiness:hover {
+	color: white;
+}
+
+.happiness:click {
+	color: white;
+}
+
+.science {
+	width: 250px;
+	height: 250px;
+	color: white;
+	background-image: url("../images/science_background.jpg");
+	background: cover;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.science-list {
+	position: relative;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: left;
+	left: -20px;
+}
+
+.gif {
+	width: 250px;
+	height: 250px;
+	color: white;
+	background-image: url("../images/gif_background.jpg");
+	background: cover;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.gif-list {
+	position: relative;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: left;
+	left: -20px;
+}
+
+.feminism {
+	width: 250px;
+	height: 250px;
+	color: white;
+	background-image: url("../images/feminism_background.jpg");
+	background: cover;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.feminism-list {
+	position: relative;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: left;
+	left: -20px;
+}
+
+.feminism:hover {
+	color: white;
+}
+
+.feminism:click {
+	color: white;
+}
+
+.entertainment {
+	width: 250px;
+	height: 250px;
+	color: white;
+	background-image: url("../images/entertainment_background.jpg");
+	background: cover;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+.entertainment-list {
+	position: relative;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: left;
+	left: -20px;
+}
+
+.entertainment:hover {
+	color: white;
+}
+
+.entertainment:click {
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .work-header {
 	text-align: center;
