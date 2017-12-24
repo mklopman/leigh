@@ -1,0 +1,143 @@
+body {
+	background-image: linear-gradient(to bottom, rgba(225,225,225,0.6) 0%,rgba(225,225,225,0) 100%),url("https://st.depositphotos.com/1332421/3064/i/950/depositphotos_30645643-stock-photo-gray-textured-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	background-color: silver;
+	border: .5px solid black;
+}
+
+.leigh-banner {
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 90px;
+}
+
+.about-leigh-header {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+	font-weight: bolder;
+}
+
+.about-leigh-text {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	color: black;
+}
+
+.subscribe-container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 250px;
+	height: 170px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#emailAddress {
+	margin-bottom: -25px;
+}
+
+.subscribe-header{
+	margin-bottom: -25px;
+}
+
+.subscribe-button{
+	width: 100px;
+	background-color: mistyrose;
+	font-weight: 900;
+}
+
+.featured-logo {
+	width: 200px;
+	height: 200px;
+	padding: 2px;
+	border: 1px solid black;
+}
+
+.featured-header {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
+
+.featured-logo-container {
+	margin-bottom: 20px;
+}
+
+#about-leigh-photo {
+	position: relative;
+	left: 13%;
+	width: 75%;
+	height: 400px;
+	margin-bottom: 45px;
+}
+
+.footer {
+	width: 100%;
+	height: 150px;
+	background-color: mistyrose;
+	border: .5px solid black;
+}
+
+.social-nav-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.social-nav-list {
+	position: fixed;
+	list-style-type: none;
+	left: -40px;
+	top: 150px;
+	background-color: mistyrose;
+}
+
+.social-logo-box {
+	width: 45px;
+	height: 45px;
+}
+
+.twitter {
+	border-top: .5px solid black;
+	border-bottom: .5px solid black;
+}
+
+.pinterest {
+	border-top: .5px solid black;
+}
+
+.insta {
+	border-top: .5px solid black;
+}
+
+.facebook {
+	border-top: .5px solid black;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
+

@@ -1,0 +1,71 @@
+.card-body {
+	width: 200px;
+}
+
+.stupid {
+	width: 250px;
+	height: 250px;
+}
+
+.work-header {
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	height: 150px;
+	background-color: mistyrose;
+	border: .5px solid black;
+}
+
+.social-nav-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.social-nav-list {
+	position: fixed;
+	list-style-type: none;
+	left: -40px;
+	top: 170px;
+	background-color: mistyrose;
+}
+
+.social-logo-box {
+	width: 45px;
+	height: 45px;
+}
+
+.twitter {
+	border-top: .5px solid black;
+	border-bottom: .5px solid black;
+}
+
+.pinterest {
+	border-top: .5px solid black;
+}
+
+.insta {
+	border-top: .5px solid black;
+}
+
+.facebook {
+	border-top: .5px solid black;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
