@@ -7,6 +7,11 @@ router.get('/work', (req, res) => {
   res.render('work');
 })
 
+router.get('/about', (req, res) => {
+	console.log('PAGE LOADING!');
+  res.render('about');
+})
+
 
 
 module.exports = router;

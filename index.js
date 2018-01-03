@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const mustacheExpress = require('mustache-express');
-
 const mainController = require('./controllers/main');
 
 
@@ -22,7 +21,6 @@ app.use('/views', mainController)
 app.get('/', (req, res) => {
     res.render('index');
 });
-
 
 
 
