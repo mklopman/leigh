@@ -10,7 +10,7 @@ const Post = require('../models/blog.js');
 // 	Post
 // 	.showPost(req.params.id)
 // 	.then(post )
-// 	res.render('posts', {id: id});
+// 	res.render('posts', {id: id});efwe
 // });
 
 
