@@ -3,12 +3,12 @@ const router = express();
 // const axios = require('axios');
 
 router.get('/work', (req, res) => {
-	console.log('PAGE LOADING!');
+	console.log('WORK PAGE LOADING!');
   res.render('work');
 })
 
 router.get('/about', (req, res) => {
-	console.log('PAGE LOADING!');
+	console.log('ABOUT PAGE LOADING!');
   res.render('about');
 })
 
