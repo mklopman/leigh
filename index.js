@@ -8,7 +8,7 @@ const mustacheExpress = require('mustache-express');
 const mainController = require('./controllers/main');
 const postController = require('./controllers/post');
 
-
+const Post = require('./models/blog');
 
 
 const app = express();
@@ -26,9 +26,18 @@ app.use(cookieParser());
 app.use('/views', mainController)
 app.use('/posts', postController)
 
+// app.get('/', (req, res) => {
+// 	console.log('POSTS');
+//     res.render('posts/index');
+// });
+
 app.get('/', (req, res) => {
-	console.log('POSTS');
-    res.render('posts/index');
+    Post
+        .allPosts()
+        .then(data => {
+            res.render('posts/index', { data });
+        })
+        .catch(err => console.log(err));
 });
 
 

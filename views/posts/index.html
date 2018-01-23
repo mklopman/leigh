@@ -18,8 +18,15 @@
 <body>
     <nav><a href="views/work">Work</a><a href="views/about">About Me</a></nav>
     <h1>BLOG</h1> 
-        {{#posts}}
-        {{/posts}}
+        {{#data}}
+        <a href="/posts/{{id}}"><h3>{{title}}</h3></a>
+        <br>
+        <h5>BY: {{author}}</h5>
+        <br>
+        <p>{{content}}</p>
+
+            
+        {{/data}}
     
 </body>
 
